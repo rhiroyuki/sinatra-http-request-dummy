@@ -5,7 +5,6 @@ ENV['BUNDLE_GEMFILE'] ||= File.expand_path('Gemfile', __dir__)
 require 'sinatra'
 require 'sinatra/contrib'
 require 'logger'
-require 'byebug'
 
 set :logger, Logger.new(STDOUT)
 
